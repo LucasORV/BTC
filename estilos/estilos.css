@@ -1,0 +1,145 @@
+body{
+    background-image: url(../img/Captura.JPG);
+background-repeat: unset;
+}
+
+* {
+    padding: 0%;
+    margin: 0%;
+}
+.border{
+    border: 10px rgb(18, 3, 3) ;
+}
+
+#grilla {
+    display: grid;
+    grid-template-areas:
+    "header    header   header "
+    "productos productos inf  "
+    "footer    footer   footer "  ;
+    grid-template-rows: auto ;
+    grid-template-columns: auto ;
+    gap:10px ;
+
+    width: 100%;
+    height: 100vh;
+    }
+.MenuX {
+        padding: 10px;
+        background-color: rgb(21, 18, 18);
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        }
+
+header {
+        grid-area: header;
+        }
+footer {
+        grid-area: footer;
+        }
+aside {
+        grid-area: inf ;
+        }
+
+#grilla{
+    width: 100%;
+    height: 100vh;
+}
+.inf_cryp{
+        padding: 20px;
+        text-align: center;
+}
+.productos_cryp{
+    padding: 20px;
+        text-align: center;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+}
+article {
+    display: flex;
+    flex-direction: row;
+}
+.img1{
+    width: 300px;
+    height: 300px;
+    justify-self: center;
+    text-align: center;   
+}
+.logo{
+    width: 200px ;
+    height: 100px ;
+}
+.Fabrica{
+    width: 300px;
+    height: 300px;
+    justify-self: center;
+    text-align: center;
+
+}
+
+a{
+    text-decoration: none;
+    font-size: 30px;
+    padding: 10px;
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+}
+
+header{
+    justify-self: center;
+    text-align: right;
+    display: flex ;
+}
+aside{
+    justify-self: center;
+    text-align: justify;
+
+}
+footer{
+        padding: 10px 0;
+        background-color: rgb(10, 8, 8);
+        width: 100%;
+        display: flex;
+        justify-content: right;
+        
+    }
+footer{
+    justify-self: center;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    font-size: 26px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+p {
+    font-size: 24px;
+    margin-bottom: 90px;
+    border: 10px solid rgb(102, 97, 97);
+    border-radius: 20px;
+
+}
+h2 {
+    color: rgb(255, 106, 0);
+    font-size: x-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
